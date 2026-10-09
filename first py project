@@ -1,0 +1,10 @@
+
+
+
+num=34 
+guess=int(input("Enter a number"))
+if(guess==num):
+  print("You guess the right number")
+  print("Hurray")
+else:
+  print("You guess the wrong number")
