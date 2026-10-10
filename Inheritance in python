@@ -1,0 +1,22 @@
+
+class Hello:
+    @staticmethod
+    def Hello1():
+        print("Hello World")
+
+    @staticmethod
+    def Hello2():
+        print("Hii World")
+
+
+class Hii(Hello):
+    def __init__(self, name, section):
+        self.name = name
+        self.section = section
+
+
+s1 = Hii("Ram", "A")
+s2 = Hii("Shyam", "B")
+
+s1.Hello1()
+s2.Hello2()
